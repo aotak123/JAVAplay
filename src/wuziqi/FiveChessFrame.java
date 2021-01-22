@@ -1,4 +1,4 @@
-package 五子棋;
+package wuziqi;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -7,9 +7,6 @@ import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -44,7 +41,7 @@ public class FiveChessFrame extends JFrame implements MouseListener, Runnable {
 
     public FiveChessFrame() {
         // 设置标题
-        this.setTitle("五子棋");
+        this.setTitle("wuziqi");
         // 设置窗体大小
         this.setSize(500, 530);
         // 设置窗体出现位置
